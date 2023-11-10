@@ -101,7 +101,7 @@ a:active {
 
 .section-tagline {
   text-transform: var(--section-tagline-transform);
-  section-tagline: var(--section-tagline-margin);
+  margin: var(--section-tagline-margin);
 }
 
 .container {
