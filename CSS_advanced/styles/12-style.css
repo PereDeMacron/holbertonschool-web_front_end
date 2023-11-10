@@ -36,18 +36,13 @@ body {
   line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6,
+.section-tagline, .section-title {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 
-body,
-a {
+body, a {
   color: var(--text-color);
 }
 
@@ -59,8 +54,7 @@ a {
   display: none;
 }
 
-.card-category,
-.section-tagline {
+.card-category, .section-tagline {
   color: var(--color-primary);
 }
 
